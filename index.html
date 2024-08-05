@@ -13,6 +13,48 @@
 </head>
 
 <body>
+  <header class="contenedor header">
+
+    <div class="header__logo">
+      <img src="build/img/logo.svg" alt="logo">
+    </div>
+
+    <nav class="navegacion">
+      <a href="#" class="navegacion__link">Iniciar Sessión</a>
+      <a href="#" class="navegacion__link">Crear Cuenta</a>
+      <a href="#" class="navegacion__link navegacion__link--registrar">Registrar Restaurant</a>
+    </nav>
+
+  </header>
+
+  <section class="contenedor formulario">
+    <div class="formulario__grid">
+
+      <div class="formulario__contenido">
+        <h2 class="formulario__heading">Encuentra y Pide tu comidad favorita</h2>
+        <form action="#" class="formulario__form">
+
+          <div class="formulario__campo">
+            <label for="restaurant" class="formulario__label">Restaurant</label>
+            <input type="text" id="restaurant" class="formulario__input" placeholder="Pizzeria, Taqueria ...">
+          </div>
+
+          <div class="formulario__campo">
+            <label for="platillo" class="formulario__label">Platillo</label>
+            <input type="text" id="platillo" class="formulario__input" placeholder="Pizza, Tacos ...">
+          </div>
+
+          <input type="submit" class="formulario__submit" value="Burscar">
+
+        </form>
+      </div>
+
+      <div class="formulario__imagen-contenedor">
+        <img class="formulario__imagen" src="build/img/dibujo_repartidor.svg" alt="repartidor">
+      </div>
+
+    </div>
+  </section>
 
 </body>
 
